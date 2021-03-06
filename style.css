@@ -1,0 +1,381 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+margin: 0;
+padding: 0;
+}
+
+ul{
+
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-left: 80px;
+}
+header{
+
+padding:50px;
+background-color: teal;
+
+}
+.top-header{
+overflow: hidden;
+
+}
+
+.logo{
+
+width: 30%;
+ float: left;
+ padding: 10px 0px 10px 100px;
+}
+
+.logo span:nth-child(1){
+
+    font-size: 30px;
+    font-weight: bolder;
+
+
+}
+.logo span:nth-child(2){
+
+    font-size: 15px;
+
+    
+}
+
+.email{
+
+width: 25%;
+float: left;
+
+}
+
+.email span:nth-child(1){
+    display: block;
+    margin-top: 10px
+}
+
+.email span:nth-child(2){
+
+    margin-top: -10px;
+    margin-bottom: 0px;
+    display: block;
+
+
+
+
+}
+
+
+
+.phone{
+
+    width: 25%;
+    float: left;
+
+}
+
+
+.phone span:nth-child(1){
+    display: block;
+    margin-top: 10px
+
+}
+
+
+.phone span:nth-child(2){
+
+    display: block;
+    margin-top: -10px;
+}
+
+
+.btn{
+
+    width: 10%;
+    float: left;
+  
+    border: none;
+    margin-left:-1px;
+  
+}
+
+.btn button{
+
+    border: none;
+    margin: -2px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 1000px;
+    background: skyblue;
+    margin-top: 15px;
+}
+.btn button:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+
+.bottom-header{
+
+    
+        overflow: hidden;
+        background: black;
+        margin: 10px;
+        padding: 10px;
+        margin: 0px 100px;
+        margin-right: 70px;
+    
+
+}
+
+ul li{
+ list-style: none;
+ float: left;
+ margin: 5px 20px; 
+
+}
+
+ul li a{
+
+text-decoration: none;
+color: aliceblue;
+
+
+}
+
+
+
+.navmenu{
+
+    width: 60%;
+    float: left;
+
+}
+
+.searchbar{
+
+    width: 40%;
+    float: left;
+
+
+
+
+}
+.searchbar input{
+
+    border: 1px solid black;
+    border-radius: 1000px;
+    margin-top: -3px;
+    padding-left: 5px;
+    padding: 10px;
+    width: 297px;
+
+}
+.searchbar i{
+
+    
+        position: absolute;
+        right: 20;
+        right: 250px;
+        top: 140px;
+        /* margin-top: 50px;
+        margin-right: -150px;
+} */
+
+}
+
+
+main{
+   
+    overflow:hidden;
+    background-image: url("https://images.pexels.com/photos/1699025/pexels-photo-1699025.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+   
+    padding:60px 50px;
+    
+}
+main h1{
+    color: orange;
+}
+main p{
+
+    margin-top: 20px;
+    color: white;
+font-size: 20px;
+
+
+
+}
+main button{
+
+    margin-top: 35px;
+    padding: 10px;
+    border: none;
+    border-radius: 40px;
+    background-color: orange;
+    padding: 10px;
+    color: white;
+    padding: 18px 30px;
+
+}
+
+main button:hover{
+    color: black;
+    background-color: teal;
+    cursor: pointer;
+}
+.footer{
+
+
+
+}
+
+.one{
+
+    width: 25%;
+    float: left;
+    overflow: hidden;
+    background-color: orange;
+    color: white;
+    height: 173px;
+
+}
+.one i{
+    margin-left: 160px;
+    margin-top: 20px;
+}
+.one h2{
+
+    margin-left: 80px;
+    margin-top: 15px;
+
+
+}
+
+.one p{
+
+    margin-left: 50px;
+    margin-top: 18px;
+}
+
+
+
+
+
+.two{
+
+    width: 25%;
+    float: left;
+    background-color: skyblue;
+    color: white;
+    height: 173px;
+}
+.two i{
+
+    margin-left: 160px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+
+}
+
+
+.two h2{
+    margin-left: 82px;
+}
+ 
+.two p{
+
+    margin-left: 82px;
+    margin-top: 17.5px;
+
+}
+
+
+
+.three{
+
+
+    width: 25%;
+    float: left;
+    overflow: hidden;
+    background-color: orange;
+    color: white;
+    height: 173px;
+}
+.three i{
+
+    margin-left: 150px;
+    margin-top: 20px;
+
+}
+
+.three h2{
+
+
+    margin-left: 80px;
+    margin-top: 13px;
+
+
+}
+
+.three p{
+
+    margin-left: 60px;
+
+    margin-top: 15.5px;
+
+
+}
+
+
+.four{
+
+
+    width: 25%;
+    float: left;
+    overflow: hidden;
+    background-color: skyblue;
+    color: white;
+    height: 173px;
+
+}
+
+.four i{
+
+
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.four h2{
+
+    margin-left: 100px;
+    margin-top: 12px;
+
+
+}
+
+.four p{
+
+
+    margin-left: 50px;
+    margin-top: 14.5px;
+
+    
+}
+
+
+
+
+
+
